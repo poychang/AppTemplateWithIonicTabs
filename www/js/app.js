@@ -1,4 +1,4 @@
-(function () {
+ï»¿(function () {
     'use strict';
 
     // Ionic Starter App
@@ -10,8 +10,8 @@
     // 'starter.controllers' is found in controllers.js
     angular.module('starter', ['ionic', 'starter.routes', 'starter.controllers', 'starter.services'])
     .config(function ($ionicConfigProvider) {
-        // $ionicConfigProvider ¬ÛÃö³]©w½Ğ°Ñ¦Ò¡Ghttp://ionicframework.com/docs/nightly/api/provider/%24ionicConfigProvider/
-        // ³]©w©Ò¦³¸Ë¸mªº tab ¦ì¸m¦b©³³¡¡]Android ¹w³]¦b³»ºİ¡^
+        // $ionicConfigProvider ç›¸é—œè¨­å®šè«‹åƒè€ƒï¼šhttp://ionicframework.com/docs/nightly/api/provider/%24ionicConfigProvider/
+        // è¨­å®šæ‰€æœ‰è£ç½®çš„ tab ä½ç½®åœ¨åº•éƒ¨ï¼ˆAndroid é è¨­åœ¨é ‚ç«¯ï¼‰
         $ionicConfigProvider.tabs.position('bottom');
         $ionicConfigProvider.backButton.text('Back').icon('ion-chevron-left');
     })

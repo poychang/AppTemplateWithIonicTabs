@@ -1,7 +1,37 @@
-﻿聲明：此範本從 Ionic Tabs 範本建立及修改
+聲明：此範本從 Ionic Tabs 範本建立及修改
 
-## 如何使用此範本
-請先安裝 Ionic 和 Cordova 套件
-```
-sudo npm install -g ionic cordova
-```
+## 範本說明
+此範本依循 [John Papa Style Guide](https://github.com/johnpapa/angular-styleguide) 修改 AngularJS 程式碼撰寫方法
+- [X] [單一職責 Single Responsibility](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#单一职责)
+- [X] [IIFE](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#iife)
+- [ ] [Modules](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#modules)
+- [ ] [Controllers](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#controllers)
+- [ ] [Services](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#services)
+- [ ] [Factories](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#factories)
+- [ ] [Data Services](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#data-services)
+- [ ] [Directives](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#directives)
+- [ ] [解決Controller的Promises Resolving Promises](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#解决controller的promises)
+- [ ] [手動依賴注入 Manual Annotating for Dependency Injection](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#手动依赖注入)
+- [ ] [壓縮和注釋 Minification and Annotation](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#压缩和注释)
+- [ ] [異常處理 Exception Handling](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#异常处理)
+- [ ] [命名 Naming](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#命名)
+- [ ] [應用程式結構的LIFT準則 Application Structure LIFT Principle](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#应用程序结构的lift准则)
+- [ ] [應用程式結構 Application Structure](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#应用程序结构)
+- [ ] [模組化 Modularity](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#模块化)
+- [ ] [啟動邏輯 Startup Logic](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#启动逻辑)
+- [ ] [Angular $包裝服務 Angular $ Wrapper Services](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#angular-包装服务)
+- [ ] [測試 Testing](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#测试)
+- [ ] [動畫 Animations](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#动画)
+- [ ] [注釋 Comments](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#注释)
+- [ ] [JSHint](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#js-hint)
+- [ ] [JSCS](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#jscs)
+- [ ] [常量 Constants](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#常量)
+- [ ] [檔範本和片段 File Templates and Snippets](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#文件模板和片段)
+- [ ] [Yeoman Generator](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#yeoman-generator)
+- [ ] [路由 Routing](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#路由)
+- [ ] [任務自動化 Task Automation](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#任务自动化)
+- [ ] [Filters](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#filters)
+- [X] [Angular文檔 Angular Docs](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#angularjs文档)
+- [X] [貢獻](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#贡献)
+- [X] [許可](https://github.com/johnpapa/angular-styleguide/blob/master/a1/i18n/zh-CN.md#许可)
+
