@@ -12,11 +12,11 @@
             $stateProvider
 
             // setup an abstract state for the tabs directive
-              .state('tab', {
-                  url: '/tab',
-                  abstract: true,
-                  templateUrl: 'templates/tabs.html'
-              })
+            .state('tab', {
+                url: '/tab',
+                abstract: true,
+                templateUrl: 'templates/tabs.html'
+            })
 
             // Each tab has its own nav history stack:
 
@@ -25,7 +25,7 @@
                 views: {
                     'tab-dash': {
                         templateUrl: 'templates/dash/dash.html',
-                        controller: 'DashCtrl'
+                        controller: 'DashCtrl as ctrl'
                     }
                 }
             })
@@ -35,26 +35,26 @@
                 views: {
                     'tab-chats': {
                         templateUrl: 'templates/chats/chats.html',
-                        controller: 'ChatsCtrl'
+                        controller: 'ChatsCtrl as ctrl'
                     }
                 }
             })
-              .state('tab.chat-detail', {
-                  url: '/chats/:chatId',
-                  views: {
-                      'tab-chats': {
-                          templateUrl: 'templates/chats/chatdetail.html',
-                          controller: 'ChatDetailCtrl'
-                      }
-                  }
-              })
+                .state('tab.chat-detail', {
+                    url: '/chats/:chatId',
+                    views: {
+                        'tab-chats': {
+                            templateUrl: 'templates/chats/chatdetail.html',
+                            controller: 'ChatDetailCtrl as ctrl'
+                        }
+                    }
+                })
 
             .state('tab.account', {
                 url: '/account',
                 views: {
                     'tab-account': {
                         templateUrl: 'templates/account/account.html',
-                        controller: 'AccountCtrl'
+                        controller: 'AccountCtrl as ctrl'
                     }
                 }
             });

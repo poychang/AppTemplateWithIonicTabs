@@ -5,9 +5,9 @@
         .module('Dash')
         .controller('DashCtrl', DashCtrl);
 
-    DashCtrl.$inject = ['$scope'];
+    DashCtrl.$inject = [];
 
-    function DashCtrl($scope) {
+    function DashCtrl() {
         /* jshint validthis:true */
         var vm = this;
         vm.title = 'Dash';

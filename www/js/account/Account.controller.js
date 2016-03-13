@@ -5,9 +5,9 @@
         .module('Account')
         .controller('AccountCtrl', AccountCtrl);
 
-    AccountCtrl.$inject = ['$scope'];
+    AccountCtrl.$inject = [];
 
-    function AccountCtrl($scope) {
+    function AccountCtrl() {
         /* jshint validthis:true */
         var vm = this;
         vm.title = 'Account';
@@ -15,7 +15,7 @@
         activate();
 
         function activate() {
-            $scope.settings = {
+            vm.settings = {
                 enableFriends: true
             };
         }

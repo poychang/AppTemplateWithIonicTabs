@@ -3,11 +3,11 @@
 
     angular
         .module('Chats')
-        .factory('Chats', Chats);
+        .factory('chats', chats);
 
-    Chats.$inject = [];
+    chats.$inject = [];
 
-    function Chats() {
+    function chats() {
         // Might use a resource here that returns a JSON array
 
         // Some fake testing data
@@ -45,6 +45,8 @@
         };
 
         return service;
+
+        //////////
 
         function all() {
             return chats;

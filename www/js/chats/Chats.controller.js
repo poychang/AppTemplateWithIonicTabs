@@ -5,9 +5,9 @@
         .module('Chats')
         .controller('ChatsCtrl', ChatsCtrl);
 
-    ChatsCtrl.$inject = ['$scope', 'Chats'];
+    ChatsCtrl.$inject = ['chats'];
 
-    function ChatsCtrl($scope, Chats) {
+    function ChatsCtrl(chats) {
         /* jshint validthis:true */
         var vm = this;
         vm.title = 'Chats';
@@ -23,9 +23,9 @@
             //$scope.$on('$ionicView.enter', function(e) {
             //});
 
-            $scope.chats = Chats.all();
-            $scope.remove = function (chat) {
-                Chats.remove(chat);
+            vm.chats = chats.all();
+            vm.remove = function (chat) {
+                chats.remove(chat);
             };
         }
     }

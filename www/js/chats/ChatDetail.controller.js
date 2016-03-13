@@ -5,9 +5,9 @@
         .module('Chats')
         .controller('ChatDetailCtrl', ChatDetailCtrl);
 
-    ChatDetailCtrl.$inject = ['$scope', '$stateParams', 'Chats'];
+    ChatDetailCtrl.$inject = ['$stateParams', 'chats'];
 
-    function ChatDetailCtrl($scope, $stateParams, Chats) {
+    function ChatDetailCtrl($stateParams, chats) {
         /* jshint validthis:true */
         var vm = this;
         vm.title = 'ChatDetail';
@@ -15,7 +15,7 @@
         activate();
 
         function activate() {
-            $scope.chat = Chats.get($stateParams.chatId);
+            vm.chat = chats.get($stateParams.chatId);
         }
     }
 })();
